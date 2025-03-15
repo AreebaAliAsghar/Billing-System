@@ -1,40 +1,36 @@
-**************Billing System**************
+# **Billing System**  
 
-A Python-based Billing System with a GUI using Tkinter and PDF generation using FPDF. It allows users to input customer details, add purchased items, calculate the total bill, and generate a PDF invoice.
+A Python-based Billing System with a GUI using Tkinter and PDF generation using FPDF. This system allows users to input customer details, add purchased items, calculate the total bill, and generate a PDF invoice.  
 
-******Features******
+## **Features**  
 
-User-friendly GUI for entering customer and item details
+- **User-friendly GUI** for entering customer and item details  
+- **Automatic bill calculation** and display  
+- **PDF invoice generation** with structured formatting  
+- **Object-Oriented Design** for better code organization  
 
-Automatic bill calculation and display
+## **Requirements**  
 
-PDF invoice generation with structured formatting
+Ensure you have Python installed along with the required dependencies:  
 
-Object-Oriented Design for better code organization
-
-
-******Requirements******
-
-Ensure you have Python installed along with the required dependencies:
-
+```bash
 pip install fpdf tkinter
+```
 
-Usage
+## **Usage**  
 
-Run the script:
+Run the script using:  
 
+```bash
 python CASHMEMO01.py
+```
 
-**Steps to Use:******
+### **Steps to Use**  
 
-1. Enter customer details (Name, Address, etc.).
+1. **Enter customer details** (Name, Address, etc.).  
+2. **Add items** with quantity and price.  
+3. Click **"Generate Bill"** to display the bill and save it as a PDF.  
 
+## **License**  
 
-2. Add items with quantity and price.
-
-
-3. Click "Generate Bill" to display the bill and save it as a PDF.
-
-****License****
-
-This project is open-source and available under the MIT License.
+This project is open-source and available under the **MIT License**.  
